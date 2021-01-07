@@ -3,11 +3,175 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-01-07T22:03:46.807Z",
+        "start_timestamp": "2021-01-07T22:45:53.312Z",
         "before": [
           {
             "result": {
-              "duration": 4602880000,
+              "duration": 5956227000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "verify my account page with valid creditials",
+        "description": "",
+        "id": "my-account-module;verify-my-account-page-with-valid-creditials",
+        "after": [
+          {
+            "result": {
+              "duration": 90692000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20698000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on \"My Store\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Store\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_is_on_homepage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2026012000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user navigate to \"My account\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My account\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.theUserNavigateToPage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20503000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify that page subtitle is \"Authentication\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Authentication\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.verifyThatPageSubtitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 288283000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user click the create an account button with valid email address",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClickTheCreateAnAccountButtonWithValidEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4513750000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user fills the form with valid personal information",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserFillsTheFormWithValidPersonalInformation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1219529000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user clicks the register button",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClicksTheRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17381000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify that page subtitle is \"My account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My account\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.verifyThatPageSubtitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17448000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user should see account name on top right",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserShouldSeeAccountNameOnTopRight()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@answerdigital"
+          },
+          {
+            "name": "@myaccount"
+          },
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-07T22:46:07.541Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3621121000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +186,7 @@
         "after": [
           {
             "result": {
-              "duration": 87372000,
+              "duration": 89160000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +199,7 @@
         "steps": [
           {
             "result": {
-              "duration": 22242000,
+              "duration": 3495000,
               "status": "passed"
             },
             "line": 18,
@@ -53,7 +217,7 @@
           },
           {
             "result": {
-              "duration": 1347800000,
+              "duration": 1289990000,
               "status": "passed"
             },
             "line": 19,
@@ -71,7 +235,7 @@
           },
           {
             "result": {
-              "duration": 22694000,
+              "duration": 20267000,
               "status": "passed"
             },
             "line": 20,
@@ -89,7 +253,7 @@
           },
           {
             "result": {
-              "duration": 274017000,
+              "duration": 155935000,
               "status": "passed"
             },
             "line": 21,
@@ -108,7 +272,7 @@
           },
           {
             "result": {
-              "duration": 510239000,
+              "duration": 786468000,
               "status": "passed"
             },
             "line": 23,
@@ -138,11 +302,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-07T22:03:53.700Z",
+        "start_timestamp": "2021-01-07T22:46:13.520Z",
         "before": [
           {
             "result": {
-              "duration": 4517004000,
+              "duration": 3525894000,
               "status": "passed"
             },
             "match": {
@@ -157,7 +321,7 @@
         "after": [
           {
             "result": {
-              "duration": 94702000,
+              "duration": 88510000,
               "status": "passed"
             },
             "match": {
@@ -170,7 +334,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3931000,
+              "duration": 16270000,
               "status": "passed"
             },
             "line": 28,
@@ -188,7 +352,7 @@
           },
           {
             "result": {
-              "duration": 1851679000,
+              "duration": 1249360000,
               "status": "passed"
             },
             "line": 29,
@@ -206,7 +370,7 @@
           },
           {
             "result": {
-              "duration": 20269000,
+              "duration": 20095000,
               "status": "passed"
             },
             "line": 30,
@@ -224,7 +388,7 @@
           },
           {
             "result": {
-              "duration": 158490000,
+              "duration": 155784000,
               "status": "passed"
             },
             "line": 31,
@@ -236,7 +400,7 @@
           },
           {
             "result": {
-              "duration": 4501432000,
+              "duration": 4453787000,
               "status": "passed"
             },
             "line": 32,
@@ -258,7 +422,7 @@
           },
           {
             "result": {
-              "duration": 848952000,
+              "duration": 1027766000,
               "status": "passed"
             },
             "line": 33,
@@ -270,7 +434,7 @@
           },
           {
             "result": {
-              "duration": 17788000,
+              "duration": 17369000,
               "status": "passed"
             },
             "line": 34,
@@ -300,11 +464,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-07T22:04:05.727Z",
+        "start_timestamp": "2021-01-07T22:46:24.081Z",
         "before": [
           {
             "result": {
-              "duration": 4610587000,
+              "duration": 4366089000,
               "status": "passed"
             },
             "match": {
@@ -319,7 +483,7 @@
         "after": [
           {
             "result": {
-              "duration": 92850000,
+              "duration": 90685000,
               "status": "passed"
             },
             "match": {
@@ -332,7 +496,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4384000,
+              "duration": 3994000,
               "status": "passed"
             },
             "line": 28,
@@ -350,7 +514,7 @@
           },
           {
             "result": {
-              "duration": 1422278000,
+              "duration": 1324941000,
               "status": "passed"
             },
             "line": 29,
@@ -368,7 +532,7 @@
           },
           {
             "result": {
-              "duration": 20073000,
+              "duration": 19097000,
               "status": "passed"
             },
             "line": 30,
@@ -386,7 +550,7 @@
           },
           {
             "result": {
-              "duration": 186104000,
+              "duration": 156275000,
               "status": "passed"
             },
             "line": 31,
@@ -398,7 +562,7 @@
           },
           {
             "result": {
-              "duration": 4626669000,
+              "duration": 4433039000,
               "status": "passed"
             },
             "line": 32,
@@ -420,7 +584,7 @@
           },
           {
             "result": {
-              "duration": 842665000,
+              "duration": 1124047000,
               "status": "passed"
             },
             "line": 33,
@@ -432,7 +596,7 @@
           },
           {
             "result": {
-              "duration": 17086000,
+              "duration": 17496000,
               "status": "passed"
             },
             "line": 34,
@@ -462,11 +626,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-07T22:04:17.556Z",
+        "start_timestamp": "2021-01-07T22:46:35.623Z",
         "before": [
           {
             "result": {
-              "duration": 4073819000,
+              "duration": 3683566000,
               "status": "passed"
             },
             "match": {
@@ -481,7 +645,7 @@
         "after": [
           {
             "result": {
-              "duration": 91468000,
+              "duration": 89455000,
               "status": "passed"
             },
             "match": {
@@ -494,7 +658,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15225000,
+              "duration": 4311000,
               "status": "passed"
             },
             "line": 28,
@@ -512,7 +676,7 @@
           },
           {
             "result": {
-              "duration": 1564066000,
+              "duration": 1472245000,
               "status": "passed"
             },
             "line": 29,
@@ -530,7 +694,7 @@
           },
           {
             "result": {
-              "duration": 19594000,
+              "duration": 20032000,
               "status": "passed"
             },
             "line": 30,
@@ -548,7 +712,7 @@
           },
           {
             "result": {
-              "duration": 155935000,
+              "duration": 170176000,
               "status": "passed"
             },
             "line": 31,
@@ -560,7 +724,7 @@
           },
           {
             "result": {
-              "duration": 4479587000,
+              "duration": 4707655000,
               "status": "passed"
             },
             "line": 32,
@@ -582,7 +746,7 @@
           },
           {
             "result": {
-              "duration": 808428000,
+              "duration": 895715000,
               "status": "passed"
             },
             "line": 33,
@@ -594,7 +758,7 @@
           },
           {
             "result": {
-              "duration": 15222000,
+              "duration": 17844000,
               "status": "passed"
             },
             "line": 34,
@@ -624,11 +788,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-07T22:04:28.786Z",
+        "start_timestamp": "2021-01-07T22:46:46.690Z",
         "before": [
           {
             "result": {
-              "duration": 5585584000,
+              "duration": 4161580000,
               "status": "passed"
             },
             "match": {
@@ -643,7 +807,7 @@
         "after": [
           {
             "result": {
-              "duration": 91005000,
+              "duration": 92003000,
               "status": "passed"
             },
             "match": {
@@ -656,7 +820,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3478000,
+              "duration": 3154000,
               "status": "passed"
             },
             "line": 28,
@@ -674,7 +838,7 @@
           },
           {
             "result": {
-              "duration": 1520627000,
+              "duration": 1554013000,
               "status": "passed"
             },
             "line": 29,
@@ -692,7 +856,7 @@
           },
           {
             "result": {
-              "duration": 20233000,
+              "duration": 18593000,
               "status": "passed"
             },
             "line": 30,
@@ -710,7 +874,7 @@
           },
           {
             "result": {
-              "duration": 161710000,
+              "duration": 157142000,
               "status": "passed"
             },
             "line": 31,
@@ -722,7 +886,7 @@
           },
           {
             "result": {
-              "duration": 4586120000,
+              "duration": 4465943000,
               "status": "passed"
             },
             "line": 32,
@@ -744,7 +908,7 @@
           },
           {
             "result": {
-              "duration": 1127514000,
+              "duration": 972066000,
               "status": "passed"
             },
             "line": 33,
@@ -756,7 +920,7 @@
           },
           {
             "result": {
-              "duration": 16800000,
+              "duration": 16891000,
               "status": "passed"
             },
             "line": 34,
@@ -786,11 +950,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-07T22:04:41.905Z",
+        "start_timestamp": "2021-01-07T22:46:58.137Z",
         "before": [
           {
             "result": {
-              "duration": 4810139000,
+              "duration": 5705865000,
               "status": "passed"
             },
             "match": {
@@ -805,7 +969,7 @@
         "after": [
           {
             "result": {
-              "duration": 90256000,
+              "duration": 93460000,
               "status": "passed"
             },
             "match": {
@@ -818,7 +982,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3307000,
+              "duration": 3231000,
               "status": "passed"
             },
             "line": 28,
@@ -836,7 +1000,979 @@
           },
           {
             "result": {
-              "duration": 1565602000,
+              "duration": 1248254000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user navigate to \"My account\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My account\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.theUserNavigateToPage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19928000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "verify that page subtitle is \"Authentication\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Authentication\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.verifyThatPageSubtitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 154780000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user click the create an account button with valid email address",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClickTheCreateAnAccountButtonWithValidEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4330997000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user fills the form with \"\" and \"last name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"last name\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserFillsTheFormWithAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2178056000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user clicks the register button",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClicksTheRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16679000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "verify that related \"lastname is required.\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lastname is required.\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.verifyThatRelatedIsDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@answerdigital"
+          },
+          {
+            "name": "@myaccount"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-07T22:47:11.894Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4420271000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "verify my account page registration form  with invalid last name",
+        "description": "",
+        "id": "my-account-module;verify-my-account-page-registration-form--\u003ctype\u003e;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 91036000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14445000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user is on \"My Store\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Store\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_is_on_homepage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2217182000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user navigate to \"My account\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My account\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.theUserNavigateToPage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19502000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "verify that page subtitle is \"Authentication\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Authentication\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.verifyThatPageSubtitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 134703000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user click the create an account button with valid email address",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClickTheCreateAnAccountButtonWithValidEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4455616000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user fills the form with \"__Jackson_@££$@£$\" and \"last name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"__Jackson_@££$@£$\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"last name\"",
+                  "offset": 53
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserFillsTheFormWithAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1341334000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user clicks the register button",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClicksTheRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16531000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "verify that related \"lastname is invalid.\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lastname is invalid.\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.verifyThatRelatedIsDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@answerdigital"
+          },
+          {
+            "name": "@myaccount"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-07T22:47:24.610Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4103247000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "verify my account page registration form  with invalid password",
+        "description": "",
+        "id": "my-account-module;verify-my-account-page-registration-form--\u003ctype\u003e;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 91830000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3134000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user is on \"My Store\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Store\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_is_on_homepage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1646071000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user navigate to \"My account\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My account\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.theUserNavigateToPage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20533000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "verify that page subtitle is \"Authentication\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Authentication\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.verifyThatPageSubtitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 125868000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user click the create an account button with valid email address",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClickTheCreateAnAccountButtonWithValidEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4153438000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user fills the form with \"\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserFillsTheFormWithAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1515429000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user clicks the register button",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClicksTheRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16595000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "verify that related \"passwd is required.\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"passwd is required.\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.verifyThatRelatedIsDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@answerdigital"
+          },
+          {
+            "name": "@myaccount"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-07T22:47:36.291Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4508752000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "verify my account page registration form  with invalid password",
+        "description": "",
+        "id": "my-account-module;verify-my-account-page-registration-form--\u003ctype\u003e;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 91144000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3077000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user is on \"My Store\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Store\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_is_on_homepage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2009763000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user navigate to \"My account\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My account\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.theUserNavigateToPage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19064000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "verify that page subtitle is \"Authentication\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Authentication\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.verifyThatPageSubtitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 126358000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user click the create an account button with valid email address",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClickTheCreateAnAccountButtonWithValidEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3995590000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user fills the form with \"123_\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123_\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserFillsTheFormWithAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1649319000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user clicks the register button",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClicksTheRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16908000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "verify that related \"passwd is invalid.\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"passwd is invalid.\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.verifyThatRelatedIsDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@answerdigital"
+          },
+          {
+            "name": "@myaccount"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-07T22:47:48.715Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4407542000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "verify my account page registration form  with invalid address",
+        "description": "",
+        "id": "my-account-module;verify-my-account-page-registration-form--\u003ctype\u003e;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 92598000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2729000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user is on \"My Store\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Store\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_is_on_homepage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1561365000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user navigate to \"My account\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My account\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.theUserNavigateToPage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19144000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "verify that page subtitle is \"Authentication\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Authentication\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.verifyThatPageSubtitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 133476000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user click the create an account button with valid email address",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClickTheCreateAnAccountButtonWithValidEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4806061000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user fills the form with \"\" and \"address\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"address\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserFillsTheFormWithAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1424160000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user clicks the register button",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClicksTheRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16915000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "verify that related \"address1 is required.\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"address1 is required.\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.verifyThatRelatedIsDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@answerdigital"
+          },
+          {
+            "name": "@myaccount"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-07T22:48:01.184Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4313097000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "verify my account page registration form  with invalid address",
+        "description": "",
+        "id": "my-account-module;verify-my-account-page-registration-form--\u003ctype\u003e;;11",
+        "after": [
+          {
+            "result": {
+              "duration": 93066000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3029000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user is on \"My Store\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Store\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_is_on_homepage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1229858000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user navigate to \"My account\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My account\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.theUserNavigateToPage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20605000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "verify that page subtitle is \"Authentication\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Authentication\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.verifyThatPageSubtitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 123316000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user click the create an account button with valid email address",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClickTheCreateAnAccountButtonWithValidEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4084866000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user fills the form with \"{}{1234\u0026\u0026\u0026^street\" and \"address\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"{}{1234\u0026\u0026\u0026^street\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"address\"",
+                  "offset": 53
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserFillsTheFormWithAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 810829000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user clicks the register button",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClicksTheRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16995000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "verify that related \"address1 is invalid.\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"address1 is invalid.\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.verifyThatRelatedIsDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@answerdigital"
+          },
+          {
+            "name": "@myaccount"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-07T22:48:11.888Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4429915000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "verify my account page registration form  with invalid city",
+        "description": "",
+        "id": "my-account-module;verify-my-account-page-registration-form--\u003ctype\u003e;;12",
+        "after": [
+          {
+            "result": {
+              "duration": 89967000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14384000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user is on \"My Store\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Store\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_is_on_homepage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1418856000,
               "status": "passed"
             },
             "line": 29,
@@ -872,7 +2008,7 @@
           },
           {
             "result": {
-              "duration": 147692000,
+              "duration": 128736000,
               "status": "passed"
             },
             "line": 31,
@@ -884,979 +2020,7 @@
           },
           {
             "result": {
-              "duration": 4563104000,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "the user fills the form with \"\" and \"last name\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"\"",
-                  "offset": 29
-                },
-                {
-                  "val": "\"last name\"",
-                  "offset": 36
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserFillsTheFormWithAnd(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 845544000,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "the user clicks the register button",
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClicksTheRegisterButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 16309000,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "verify that related \"lastname is required.\" is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"lastname is required.\"",
-                  "offset": 20
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.verifyThatRelatedIsDisplayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@answerdigital"
-          },
-          {
-            "name": "@myaccount"
-          },
-          {
-            "name": "@negative"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-01-07T22:04:53.971Z",
-        "before": [
-          {
-            "result": {
-              "duration": 4329175000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 44,
-        "name": "verify my account page registration form  with invalid last name",
-        "description": "",
-        "id": "my-account-module;verify-my-account-page-registration-form--\u003ctype\u003e;;7",
-        "after": [
-          {
-            "result": {
-              "duration": 91907000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.Hooks.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3319000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "the user is on \"My Store\" homepage",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"My Store\"",
-                  "offset": 15
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_is_on_homepage(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1320254000,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "the user navigate to \"My account\" page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"My account\"",
-                  "offset": 21
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.theUserNavigateToPage(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 333715000,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "verify that page subtitle is \"Authentication\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Authentication\"",
-                  "offset": 29
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.verifyThatPageSubtitleIs(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 128520000,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "the user click the create an account button with valid email address",
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClickTheCreateAnAccountButtonWithValidEmailAddress()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4547808000,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "the user fills the form with \"__Jackson_@££$@£$\" and \"last name\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"__Jackson_@££$@£$\"",
-                  "offset": 29
-                },
-                {
-                  "val": "\"last name\"",
-                  "offset": 53
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserFillsTheFormWithAnd(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 957656000,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "the user clicks the register button",
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClicksTheRegisterButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 16894000,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "verify that related \"lastname is invalid.\" is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"lastname is invalid.\"",
-                  "offset": 20
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.verifyThatRelatedIsDisplayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@answerdigital"
-          },
-          {
-            "name": "@myaccount"
-          },
-          {
-            "name": "@negative"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-01-07T22:05:05.707Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3622500000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 45,
-        "name": "verify my account page registration form  with invalid password",
-        "description": "",
-        "id": "my-account-module;verify-my-account-page-registration-form--\u003ctype\u003e;;8",
-        "after": [
-          {
-            "result": {
-              "duration": 90519000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.Hooks.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3029000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "the user is on \"My Store\" homepage",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"My Store\"",
-                  "offset": 15
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_is_on_homepage(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1224367000,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "the user navigate to \"My account\" page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"My account\"",
-                  "offset": 21
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.theUserNavigateToPage(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 19262000,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "verify that page subtitle is \"Authentication\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Authentication\"",
-                  "offset": 29
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.verifyThatPageSubtitleIs(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 128832000,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "the user click the create an account button with valid email address",
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClickTheCreateAnAccountButtonWithValidEmailAddress()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3971303000,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "the user fills the form with \"\" and \"password\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"\"",
-                  "offset": 29
-                },
-                {
-                  "val": "\"password\"",
-                  "offset": 36
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserFillsTheFormWithAnd(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 805152000,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "the user clicks the register button",
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClicksTheRegisterButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 16868000,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "verify that related \"passwd is required.\" is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"passwd is required.\"",
-                  "offset": 20
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.verifyThatRelatedIsDisplayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@answerdigital"
-          },
-          {
-            "name": "@myaccount"
-          },
-          {
-            "name": "@negative"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-01-07T22:05:15.594Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3898543000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 46,
-        "name": "verify my account page registration form  with invalid password",
-        "description": "",
-        "id": "my-account-module;verify-my-account-page-registration-form--\u003ctype\u003e;;9",
-        "after": [
-          {
-            "result": {
-              "duration": 92806000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.Hooks.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2966000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "the user is on \"My Store\" homepage",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"My Store\"",
-                  "offset": 15
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_is_on_homepage(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1869637000,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "the user navigate to \"My account\" page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"My account\"",
-                  "offset": 21
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.theUserNavigateToPage(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 19460000,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "verify that page subtitle is \"Authentication\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Authentication\"",
-                  "offset": 29
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.verifyThatPageSubtitleIs(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 124352000,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "the user click the create an account button with valid email address",
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClickTheCreateAnAccountButtonWithValidEmailAddress()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4575722000,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "the user fills the form with \"123_\" and \"password\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"123_\"",
-                  "offset": 29
-                },
-                {
-                  "val": "\"password\"",
-                  "offset": 40
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserFillsTheFormWithAnd(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1044328000,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "the user clicks the register button",
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClicksTheRegisterButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 16060000,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "verify that related \"passwd is invalid.\" is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"passwd is invalid.\"",
-                  "offset": 20
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.verifyThatRelatedIsDisplayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@answerdigital"
-          },
-          {
-            "name": "@myaccount"
-          },
-          {
-            "name": "@negative"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-01-07T22:05:27.242Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3906321000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 47,
-        "name": "verify my account page registration form  with invalid address",
-        "description": "",
-        "id": "my-account-module;verify-my-account-page-registration-form--\u003ctype\u003e;;10",
-        "after": [
-          {
-            "result": {
-              "duration": 93314000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.Hooks.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2751000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "the user is on \"My Store\" homepage",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"My Store\"",
-                  "offset": 15
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_is_on_homepage(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1265226000,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "the user navigate to \"My account\" page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"My account\"",
-                  "offset": 21
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.theUserNavigateToPage(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 20579000,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "verify that page subtitle is \"Authentication\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Authentication\"",
-                  "offset": 29
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.verifyThatPageSubtitleIs(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 125919000,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "the user click the create an account button with valid email address",
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClickTheCreateAnAccountButtonWithValidEmailAddress()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4180055000,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "the user fills the form with \"\" and \"address\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"\"",
-                  "offset": 29
-                },
-                {
-                  "val": "\"address\"",
-                  "offset": 36
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserFillsTheFormWithAnd(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 880494000,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "the user clicks the register button",
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClicksTheRegisterButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 16174000,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "verify that related \"address1 is required.\" is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"address1 is required.\"",
-                  "offset": 20
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.verifyThatRelatedIsDisplayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@answerdigital"
-          },
-          {
-            "name": "@myaccount"
-          },
-          {
-            "name": "@negative"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-01-07T22:05:37.737Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3427366000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 48,
-        "name": "verify my account page registration form  with invalid address",
-        "description": "",
-        "id": "my-account-module;verify-my-account-page-registration-form--\u003ctype\u003e;;11",
-        "after": [
-          {
-            "result": {
-              "duration": 91950000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.Hooks.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2759000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "the user is on \"My Store\" homepage",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"My Store\"",
-                  "offset": 15
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_is_on_homepage(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1319165000,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "the user navigate to \"My account\" page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"My account\"",
-                  "offset": 21
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.theUserNavigateToPage(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 16024000,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "verify that page subtitle is \"Authentication\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Authentication\"",
-                  "offset": 29
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.verifyThatPageSubtitleIs(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 127177000,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "the user click the create an account button with valid email address",
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClickTheCreateAnAccountButtonWithValidEmailAddress()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4142205000,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "the user fills the form with \"{}{1234\u0026\u0026\u0026^street\" and \"address\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"{}{1234\u0026\u0026\u0026^street\"",
-                  "offset": 29
-                },
-                {
-                  "val": "\"address\"",
-                  "offset": 53
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserFillsTheFormWithAnd(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 851499000,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "the user clicks the register button",
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClicksTheRegisterButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 17319000,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "verify that related \"address1 is invalid.\" is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"address1 is invalid.\"",
-                  "offset": 20
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.verifyThatRelatedIsDisplayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@answerdigital"
-          },
-          {
-            "name": "@myaccount"
-          },
-          {
-            "name": "@negative"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-01-07T22:05:47.737Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3758330000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 49,
-        "name": "verify my account page registration form  with invalid city",
-        "description": "",
-        "id": "my-account-module;verify-my-account-page-registration-form--\u003ctype\u003e;;12",
-        "after": [
-          {
-            "result": {
-              "duration": 91953000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.Hooks.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2759000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "the user is on \"My Store\" homepage",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"My Store\"",
-                  "offset": 15
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_is_on_homepage(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1488685000,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "the user navigate to \"My account\" page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"My account\"",
-                  "offset": 21
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.theUserNavigateToPage(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 17958000,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "verify that page subtitle is \"Authentication\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Authentication\"",
-                  "offset": 29
-                }
-              ],
-              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.verifyThatPageSubtitleIs(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 134158000,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "the user click the create an account button with valid email address",
-            "match": {
-              "location": "com.answerdigital.stepdefinitions.MyAccountStepDefs.theUserClickTheCreateAnAccountButtonWithValidEmailAddress()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4031541000,
+              "duration": 4843217000,
               "status": "passed"
             },
             "line": 32,
@@ -1878,7 +2042,7 @@
           },
           {
             "result": {
-              "duration": 957238000,
+              "duration": 804231000,
               "status": "passed"
             },
             "line": 33,
@@ -1890,7 +2054,7 @@
           },
           {
             "result": {
-              "duration": 29070000,
+              "duration": 16391000,
               "status": "passed"
             },
             "line": 34,
@@ -1920,11 +2084,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-07T22:05:58.254Z",
+        "start_timestamp": "2021-01-07T22:48:23.657Z",
         "before": [
           {
             "result": {
-              "duration": 4172020000,
+              "duration": 3546025000,
               "status": "passed"
             },
             "match": {
@@ -1939,7 +2103,7 @@
         "after": [
           {
             "result": {
-              "duration": 91193000,
+              "duration": 91533000,
               "status": "passed"
             },
             "match": {
@@ -1952,7 +2116,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14890000,
+              "duration": 3045000,
               "status": "passed"
             },
             "line": 28,
@@ -1970,7 +2134,7 @@
           },
           {
             "result": {
-              "duration": 1728783000,
+              "duration": 1840403000,
               "status": "passed"
             },
             "line": 29,
@@ -1988,7 +2152,7 @@
           },
           {
             "result": {
-              "duration": 19367000,
+              "duration": 19281000,
               "status": "passed"
             },
             "line": 30,
@@ -2006,7 +2170,7 @@
           },
           {
             "result": {
-              "duration": 112311000,
+              "duration": 123986000,
               "status": "passed"
             },
             "line": 31,
@@ -2018,7 +2182,7 @@
           },
           {
             "result": {
-              "duration": 4251979000,
+              "duration": 4394150000,
               "status": "passed"
             },
             "line": 32,
@@ -2040,7 +2204,7 @@
           },
           {
             "result": {
-              "duration": 1435063000,
+              "duration": 932017000,
               "status": "passed"
             },
             "line": 33,
@@ -2052,7 +2216,7 @@
           },
           {
             "result": {
-              "duration": 15875000,
+              "duration": 16832000,
               "status": "passed"
             },
             "line": 34,
@@ -2082,11 +2246,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-07T22:06:10.100Z",
+        "start_timestamp": "2021-01-07T22:48:34.629Z",
         "before": [
           {
             "result": {
-              "duration": 4889562000,
+              "duration": 3954929000,
               "status": "passed"
             },
             "match": {
@@ -2101,7 +2265,7 @@
         "after": [
           {
             "result": {
-              "duration": 91503000,
+              "duration": 89578000,
               "status": "passed"
             },
             "match": {
@@ -2114,7 +2278,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3252000,
+              "duration": 3224000,
               "status": "passed"
             },
             "line": 28,
@@ -2132,7 +2296,7 @@
           },
           {
             "result": {
-              "duration": 3152867000,
+              "duration": 2198409000,
               "status": "passed"
             },
             "line": 29,
@@ -2150,7 +2314,7 @@
           },
           {
             "result": {
-              "duration": 18644000,
+              "duration": 260283000,
               "status": "passed"
             },
             "line": 30,
@@ -2168,7 +2332,7 @@
           },
           {
             "result": {
-              "duration": 125251000,
+              "duration": 123852000,
               "status": "passed"
             },
             "line": 31,
@@ -2180,7 +2344,7 @@
           },
           {
             "result": {
-              "duration": 4843624000,
+              "duration": 3787461000,
               "status": "passed"
             },
             "line": 32,
@@ -2202,7 +2366,7 @@
           },
           {
             "result": {
-              "duration": 852786000,
+              "duration": 833587000,
               "status": "passed"
             },
             "line": 33,
@@ -2214,7 +2378,7 @@
           },
           {
             "result": {
-              "duration": 14295000,
+              "duration": 14841000,
               "status": "passed"
             },
             "line": 34,
@@ -2244,11 +2408,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-07T22:06:24.096Z",
+        "start_timestamp": "2021-01-07T22:48:45.901Z",
         "before": [
           {
             "result": {
-              "duration": 3961270000,
+              "duration": 6201171000,
               "status": "passed"
             },
             "match": {
@@ -2263,7 +2427,7 @@
         "after": [
           {
             "result": {
-              "duration": 92418000,
+              "duration": 89886000,
               "status": "passed"
             },
             "match": {
@@ -2276,7 +2440,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3189000,
+              "duration": 3852000,
               "status": "passed"
             },
             "line": 28,
@@ -2294,7 +2458,7 @@
           },
           {
             "result": {
-              "duration": 1690705000,
+              "duration": 1264273000,
               "status": "passed"
             },
             "line": 29,
@@ -2312,7 +2476,7 @@
           },
           {
             "result": {
-              "duration": 18840000,
+              "duration": 19279000,
               "status": "passed"
             },
             "line": 30,
@@ -2330,7 +2494,7 @@
           },
           {
             "result": {
-              "duration": 124366000,
+              "duration": 124426000,
               "status": "passed"
             },
             "line": 31,
@@ -2342,7 +2506,7 @@
           },
           {
             "result": {
-              "duration": 4039697000,
+              "duration": 4095625000,
               "status": "passed"
             },
             "line": 32,
@@ -2364,7 +2528,7 @@
           },
           {
             "result": {
-              "duration": 958411000,
+              "duration": 788525000,
               "status": "passed"
             },
             "line": 33,
@@ -2376,7 +2540,7 @@
           },
           {
             "result": {
-              "duration": 15826000,
+              "duration": 17527000,
               "status": "passed"
             },
             "line": 34,
@@ -2406,11 +2570,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-07T22:06:35.005Z",
+        "start_timestamp": "2021-01-07T22:48:58.510Z",
         "before": [
           {
             "result": {
-              "duration": 4146282000,
+              "duration": 4282893000,
               "status": "passed"
             },
             "match": {
@@ -2425,7 +2589,7 @@
         "after": [
           {
             "result": {
-              "duration": 91587000,
+              "duration": 91155000,
               "status": "passed"
             },
             "match": {
@@ -2438,7 +2602,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3000000,
+              "duration": 3079000,
               "status": "passed"
             },
             "line": 28,
@@ -2456,7 +2620,7 @@
           },
           {
             "result": {
-              "duration": 2010791000,
+              "duration": 1350874000,
               "status": "passed"
             },
             "line": 29,
@@ -2474,7 +2638,7 @@
           },
           {
             "result": {
-              "duration": 18978000,
+              "duration": 259076000,
               "status": "passed"
             },
             "line": 30,
@@ -2492,7 +2656,7 @@
           },
           {
             "result": {
-              "duration": 121373000,
+              "duration": 119437000,
               "status": "passed"
             },
             "line": 31,
@@ -2504,7 +2668,7 @@
           },
           {
             "result": {
-              "duration": 4019144000,
+              "duration": 3943778000,
               "status": "passed"
             },
             "line": 32,
@@ -2526,7 +2690,7 @@
           },
           {
             "result": {
-              "duration": 921858000,
+              "duration": 923908000,
               "status": "passed"
             },
             "line": 33,
@@ -2538,7 +2702,7 @@
           },
           {
             "result": {
-              "duration": 16490000,
+              "duration": 16225000,
               "status": "passed"
             },
             "line": 34,
@@ -2568,11 +2732,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-07T22:06:46.359Z",
+        "start_timestamp": "2021-01-07T22:49:09.505Z",
         "before": [
           {
             "result": {
-              "duration": 5021536000,
+              "duration": 3610982000,
               "status": "passed"
             },
             "match": {
@@ -2587,7 +2751,7 @@
         "after": [
           {
             "result": {
-              "duration": 90302000,
+              "duration": 93309000,
               "status": "passed"
             },
             "match": {
@@ -2600,7 +2764,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3307000,
+              "duration": 2913000,
               "status": "passed"
             },
             "line": 28,
@@ -2618,7 +2782,7 @@
           },
           {
             "result": {
-              "duration": 1524773000,
+              "duration": 1572294000,
               "status": "passed"
             },
             "line": 29,
@@ -2636,7 +2800,7 @@
           },
           {
             "result": {
-              "duration": 21106000,
+              "duration": 19690000,
               "status": "passed"
             },
             "line": 30,
@@ -2654,7 +2818,7 @@
           },
           {
             "result": {
-              "duration": 125368000,
+              "duration": 127413000,
               "status": "passed"
             },
             "line": 31,
@@ -2666,7 +2830,7 @@
           },
           {
             "result": {
-              "duration": 4054576000,
+              "duration": 4008252000,
               "status": "passed"
             },
             "line": 32,
@@ -2688,7 +2852,7 @@
           },
           {
             "result": {
-              "duration": 848698000,
+              "duration": 1311175000,
               "status": "passed"
             },
             "line": 33,
@@ -2700,7 +2864,7 @@
           },
           {
             "result": {
-              "duration": 15211000,
+              "duration": 16767000,
               "status": "passed"
             },
             "line": 34,
@@ -2730,11 +2894,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-07T22:06:58.067Z",
+        "start_timestamp": "2021-01-07T22:49:20.271Z",
         "before": [
           {
             "result": {
-              "duration": 4478453000,
+              "duration": 4119326000,
               "status": "passed"
             },
             "match": {
@@ -2749,7 +2913,7 @@
         "after": [
           {
             "result": {
-              "duration": 90625000,
+              "duration": 91708000,
               "status": "passed"
             },
             "match": {
@@ -2762,7 +2926,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3181000,
+              "duration": 14542000,
               "status": "passed"
             },
             "line": 28,
@@ -2780,7 +2944,7 @@
           },
           {
             "result": {
-              "duration": 1636477000,
+              "duration": 1287230000,
               "status": "passed"
             },
             "line": 29,
@@ -2798,7 +2962,7 @@
           },
           {
             "result": {
-              "duration": 17714000,
+              "duration": 18795000,
               "status": "passed"
             },
             "line": 30,
@@ -2816,7 +2980,7 @@
           },
           {
             "result": {
-              "duration": 114917000,
+              "duration": 126776000,
               "status": "passed"
             },
             "line": 31,
@@ -2828,7 +2992,7 @@
           },
           {
             "result": {
-              "duration": 4057869000,
+              "duration": 4017292000,
               "status": "passed"
             },
             "line": 32,
@@ -2850,7 +3014,7 @@
           },
           {
             "result": {
-              "duration": 1278337000,
+              "duration": 862101000,
               "status": "passed"
             },
             "line": 33,
@@ -2862,7 +3026,7 @@
           },
           {
             "result": {
-              "duration": 14838000,
+              "duration": 14157000,
               "status": "passed"
             },
             "line": 34,
@@ -2897,6 +3061,592 @@
     "id": "my-account-module",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/MyAccount.feature",
+    "tags": [
+      {
+        "name": "@answerdigital",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-07T22:49:30.827Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4233037000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify my basket functions",
+        "description": "",
+        "id": "my-basket;verify-my-basket-functions",
+        "after": [
+          {
+            "result": {
+              "duration": 89052000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2711000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on \"My Store\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Store\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_is_on_homepage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3419913000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user select 3 random product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 16
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.theUserSelectRandomProduct(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43138000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user checks the shopping cart",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_checks_the_shopping_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 62000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify that shopping cart is not empty",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.verify_that_shopping_cart_is_not_empty()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2248069000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user check the shopping cart has \"Delete\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Delete\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_check_the_shopping_cart_has_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 108729000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user remove the items from the shopping cart",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_remove_the_items_from_the_shopping_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2028744000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify banner should display \"Your shopping cart is empty.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your shopping cart is empty.\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.verify_banner_should_display(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mybasket"
+          },
+          {
+            "name": "@answerdigital"
+          },
+          {
+            "name": "@cartisnotempty"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-07T22:49:43.005Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4657780000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "verify my basket is empty",
+        "description": "",
+        "id": "my-basket;verify-my-basket-is-empty",
+        "after": [
+          {
+            "result": {
+              "duration": 90440000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15067000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user is on \"My Store\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Store\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_is_on_homepage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16006000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user checks the shopping cart",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_checks_the_shopping_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1584295000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "verify that shopping cart is empty",
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.verifyThatShoppingCartIsEmpty()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29978000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "verify banner should display \"Your shopping cart is empty.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your shopping cart is empty.\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.verify_banner_should_display(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mybasket"
+          },
+          {
+            "name": "@answerdigital"
+          },
+          {
+            "name": "@cartisempty"
+          }
+        ]
+      }
+    ],
+    "name": "My Basket",
+    "description": "",
+    "id": "my-basket",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/MyBasket.feature",
+    "tags": [
+      {
+        "name": "@mybasket",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@answerdigital",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 11
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-07T22:49:49.401Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4063038000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "verify our stores module",
+        "description": "",
+        "id": "our-stores-module;verify-our-stores-module",
+        "after": [
+          {
+            "result": {
+              "duration": 96705000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2837000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on \"My Store\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Store\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_is_on_homepage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1215322000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user navigate to \"Our stores\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Our stores\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.theUserNavigateToPage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17225000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify that page subtitle is \"Our store(s)!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Our store(s)!\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.verifyThatPageSubtitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1180682000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user checks the \"Pembroke Pines\" store is on the map",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pembroke Pines\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.theUserChecksTheStoreIsOnTheMap(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 640349000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "take screenshot of \"PembrokePinesStore\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PembrokePinesStore\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.OurStoresStepDefs.takeScreenshotOfAddress(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@answerdigital"
+          },
+          {
+            "name": "@ourstores"
+          }
+        ]
+      }
+    ],
+    "name": "Our Stores Module",
+    "description": "",
+    "id": "our-stores-module",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/OurStores.feature",
+    "tags": [
+      {
+        "name": "@answerdigital",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-07T22:49:56.621Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3992210000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "verify summer sub module of women module",
+        "description": "",
+        "id": "women-module;verify-summer-sub-module-of-women-module",
+        "after": [
+          {
+            "result": {
+              "duration": 89439000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.answerdigital.stepdefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14739000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on \"My Store\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Store\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.MyBasketStepDefs.the_user_is_on_homepage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 129774000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user navigate to \"Women\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Women\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.WomenStepDefs.the_user_navigate_to_module(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1456524000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user navigate to \"Summer Dresses\" sub module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Summer Dresses\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.WomenStepDefs.the_user_navigate_to_sub_module(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17596000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify the \"Summer Dresses\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Summer Dresses\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.WomenStepDefs.verify_the_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15250000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify that \"There are 3 products.\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"There are 3 products.\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.answerdigital.stepdefinitions.WomenStepDefs.verifyThatIsDisplayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@answerdigital"
+          },
+          {
+            "name": "@summerdresses"
+          }
+        ]
+      }
+    ],
+    "name": "Women Module",
+    "description": "",
+    "id": "women-module",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SummerDresses.feature",
     "tags": [
       {
         "name": "@answerdigital",
