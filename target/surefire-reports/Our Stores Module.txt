@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Our Stores Module
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.982 s <<< FAILURE! - in Our Stores Module
+verify our stores module(Our Stores Module)  Time elapsed: 9.982 s  <<< FAILURE!
+org.junit.ComparisonFailure: verify page subtitle expected:<[OUR STORE(S)!]> but was:<[AUTHENTICATION]>
+

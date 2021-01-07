@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: My Basket
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 15.368 s <<< FAILURE! - in My Basket
+Verify my basket functions(My Basket)  Time elapsed: 10.38 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '00147OB', ip: '2a02:c7f:a40a:2900:30b5:d6b7:3bf2:af97%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '15.0.1'
+Driver info: driver.version: RemoteWebDriver
+
+verify my basket is empty(My Basket)  Time elapsed: 4.988 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '00147OB', ip: '2a02:c7f:a40a:2900:30b5:d6b7:3bf2:af97%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/n5/f6tqh7kx36q...}, goog:chromeOptions: {debuggerAddress: localhost:57970}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d96ce7328375dde1621ba9697f7c3a86
+
+verify my basket is empty(My Basket)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+The driver server has unexpectedly died!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '00147OB', ip: '2a02:c7f:a40a:2900:30b5:d6b7:3bf2:af97%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '15.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:15715
+Caused by: java.net.ConnectException: Connection refused
+
